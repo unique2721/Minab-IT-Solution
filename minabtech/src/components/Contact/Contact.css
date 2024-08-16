@@ -4,7 +4,7 @@
   align-items: center;
   gap: 5%;
   background-color: rgba(162, 153, 153, 0.559);
-  padding-top: 100px;
+  padding: 100px;
 }
 .contact h1 {
   font-size: 4rem;

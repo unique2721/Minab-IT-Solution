@@ -4,8 +4,10 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: whitesmoke;
-  box-shadow: 2px 2px 5px whitesmoke;
+  /* background-color: rgba(245, 245, 245, 0.934); */
+  background-color: transparent;
+  box-shadow: 2px 2px 5px rgb(134, 131, 131);
+  transition: 0.3s;
 }
 nav .logo {
   width: 110px;

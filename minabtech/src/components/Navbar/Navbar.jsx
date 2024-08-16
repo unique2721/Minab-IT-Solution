@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 /* styleshetes */
 import "./Navbar.css";
 /* images */
 import minab_logo from "../../assets/minab_logo.png";
 const Navbar = () => {
+  const navRef = useRef();
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      let scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        navRef.current.style.backgroundColor = "rgba(245, 245, 245, 0.934)";
+      }
+    });
+  }, []);
+
   return (
-    <nav>
+    <nav ref={navRef}>
       <img src={minab_logo} alt="minab logo" className="logo" />
       <ul>
         <li>
