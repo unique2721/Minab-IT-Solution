@@ -17,17 +17,17 @@ const Card = ({
       <ul>
         <li>
           <a>
-            <img src={{ twitterIcon }} alt="twitter icon" />
+            <img src={twitterIcon} alt="twitter icon" />
           </a>
         </li>
         <li>
           <a href="">
-            <img src={{ linkedinIcon }} alt="linkeden icon" />
+            <img src={linkedinIcon} alt="linkeden icon" />
           </a>
         </li>
         <li>
           <a href="">
-            <img src={{ browseIcon }} alt="browse icon" />
+            <img src={browseIcon} alt="browse icon" />
           </a>
         </li>
       </ul>

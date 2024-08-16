@@ -10,9 +10,9 @@ import natnael from "../../assets/natnael.png";
 import dereje from "../../assets/dereje.png";
 import bereket from "../../assets/bereket.png";
 /* icons */
-import twitterIcon from "../../assets/twitter.png";
-import linkedinIcon from "../../assets/linkedin.png";
-import browseIcon from "../../assets/browse.png";
+import twitterIcon from "../../assets/twitter.svg";
+import linkedinIcon from "../../assets/linkedin.svg";
+import browseIcon from "../../assets/browse.svg";
 const Team = () => {
   return (
     <div className="team">
@@ -39,6 +39,15 @@ const Team = () => {
           cardImage={mike}
           cardName={"Mickael Sahlu"}
           cardCareer={"Co-Founder and CEO"}
+          twitterIcon={twitterIcon}
+          linkedinIcon={linkedinIcon}
+          browseIcon={browseIcon}
+          alt={"Kaleab"}
+        />
+        <Card
+          cardImage={bereket}
+          cardName={"Bereket Abebe"}
+          cardCareer={"Co-Founder and former CTO"}
           twitterIcon={twitterIcon}
           linkedinIcon={linkedinIcon}
           browseIcon={browseIcon}
@@ -72,7 +81,6 @@ const Team = () => {
           alt={"Kaleab"}
         />
       </div>
-      <Button classes={"btn"} text={"More team members"} />
     </div>
   );
 };
