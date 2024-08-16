@@ -7,7 +7,7 @@ import serviceIcon2 from "../../assets/service_icon2.png";
 import serviceIcon3 from "../../assets/service_icon3.png";
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       <h1>Services</h1>
       <div className="service">
         <Service

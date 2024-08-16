@@ -22,7 +22,7 @@ import USAID from "../../assets/partners/USAID.png";
 import world_bank from "../../assets/partners/world_bank.png";
 const Partners = () => {
   return (
-    <div className="partners">
+    <div className="partners" id="partners">
       <h1>Parntners and Clients</h1>
       <ul>
         <div>

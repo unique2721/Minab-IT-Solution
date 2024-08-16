@@ -15,7 +15,7 @@ import linkedinIcon from "../../assets/linkedin.svg";
 import browseIcon from "../../assets/browse.svg";
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" id="teams">
       <div className="team-left">
         <h1>Meet the Team</h1>
         <p>

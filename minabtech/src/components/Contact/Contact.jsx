@@ -6,7 +6,7 @@ import email from "../../assets/contact/email.png";
 import location from "../../assets/contact/location.png";
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-left">
         <h1>Get</h1>
         <h1>in touch.</h1>

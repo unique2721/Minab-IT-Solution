@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import aboutIcon from "../../assets/about.png";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-left">
         <h1>About</h1>
         <p>

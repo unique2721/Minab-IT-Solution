@@ -7,7 +7,7 @@ import minabdigital from "../../assets/minabdigital.webp";
 import minabdmbs from "../../assets/minabdmbs.webp";
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Projects</h1>
       <p>
         Below are some of our notable products and projects. We have
