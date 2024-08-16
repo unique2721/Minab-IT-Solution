@@ -1,5 +1,6 @@
 import React from "react";
 import "./team.css";
+import Button from "../Button/Button";
 import Card from "./Card";
 /* team images */
 import kaleab from "../../assets/kaleab.png";
@@ -71,6 +72,7 @@ const Team = () => {
           alt={"Kaleab"}
         />
       </div>
+      <Button classes={"btn"} text={"More team members"} />
     </div>
   );
 };
