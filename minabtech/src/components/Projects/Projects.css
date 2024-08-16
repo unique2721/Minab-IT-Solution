@@ -1,14 +1,68 @@
-.prjects {
+.projects {
+  margin-left: 5%;
+  margin-right: 7%;
+  margin-top: 5%;
+  background-color: white;
+}
+.projects h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.projects p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.projects button {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto 5%;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(152, 92, 209);
 }
-.prjects h1 {
-  font-size: 40rem;
-  font-weight: bolder;
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.project img {
-  width: 400px;
+.projectt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(218, 201, 219, 0.841);
+  margin-bottom: 20px;
+}
+.projectt:hover {
+  outline: 1px solid rgba(59, 5, 82, 0.838);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.projectt h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(53, 7, 73);
+}
+.projectt img {
+  width: 500px;
+}
+.projectt p {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+.projectt span {
+  display: flex;
+  justify-content: end;
+  font-size: 1.25rem;
+  color: rgb(152, 92, 209);
 }

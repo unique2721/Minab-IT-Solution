@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 10%;
-  background-color: rgba(245, 245, 245, 0.396);
+  background-color: rgba(162, 153, 153, 0.559);
 }
 .about .about-left {
   flex-basis: 45%;

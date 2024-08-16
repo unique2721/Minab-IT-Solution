@@ -1,0 +1,25 @@
+.partners {
+  background-color: rgba(162, 153, 153, 0.559);
+}
+.partners h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px 0px;
+}
+.partners ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.partners ul div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners ul div li {
+  margin: 10px 20px;
+  cursor: pointer;
+}

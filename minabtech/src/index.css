@@ -21,3 +21,8 @@ p {
   font-weight: 100;
   line-height: 1.4;
 }
+hr {
+  background-color: rgb(65, 10, 89);
+  height: 10px;
+  margin: 40px auto;
+}
