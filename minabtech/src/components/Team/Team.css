@@ -4,24 +4,24 @@
   align-items: center;
   background-color: rgba(245, 245, 245, 0.396);
   margin: auto 5%;
-  gap: 5%;
+  gap: 2%;
 }
 .team .team-left {
-  flex-basis: 25%;
-  margin: auto 5%;
+  flex-basis: 30%;
+  margin: auto 2%;
 }
 .team .team-left h1 {
   font-size: 4rem;
   font-weight: 900;
-  margin: 60px;
+  margin: 40px;
 }
 .team .team-right {
   display: flex;
-  flex-basis: 70%;
+  flex-basis: 68%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2%;
+  gap: 1%;
 }
 
 .card {
@@ -33,7 +33,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
 }
 .card img {

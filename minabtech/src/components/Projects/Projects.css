@@ -1,0 +1,14 @@
+.prjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 5%;
+}
+.prjects h1 {
+  font-size: 40rem;
+  font-weight: bolder;
+}
+.project img {
+  width: 400px;
+}
