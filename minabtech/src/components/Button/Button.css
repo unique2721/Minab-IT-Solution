@@ -1,0 +1,10 @@
+.btn {
+  margin: 40px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgba(29, 4, 40, 0.908);
+  font-size: 1rem;
+  font-weight: 600;
+}

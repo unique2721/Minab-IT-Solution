@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  background-color: rgba(245, 245, 245, 0.396);
+}
+.about .about-left {
+  flex-basis: 45%;
+  margin: auto 5%;
+}
+.about .about-left h1 {
+  font-size: 3rem;
+  margin: 40px auto;
+}
+.about .about-left p {
+  font-size: 1.25rem;
+  font-weight: 100;
+  line-height: 1.4;
+}
+.about .about-right {
+  flex-basis: 45%;
+}
+.about .about-right img {
+  width: 600px;
+}

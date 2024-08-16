@@ -1,0 +1,45 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.396);
+  margin: auto 10%;
+}
+.services h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+}
+.servic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servic img {
+  background-color: rgba(29, 4, 40, 0.908);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servic h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(29, 4, 40, 0.908);
+  margin: 40px auto;
+}
+.servic p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
