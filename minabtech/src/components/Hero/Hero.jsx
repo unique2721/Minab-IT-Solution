@@ -7,7 +7,7 @@ import chatIcon from "../../assets/chat.svg";
 const Hero = () => {
   return (
     <div className="hero">
-      <img src={logo} alt="minab logo" />
+      <img className="logo" src={logo} alt="minab logo" />
       <h1>
         From the cloud to clients, we have all the <span>answers.</span>
       </h1>
