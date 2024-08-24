@@ -41,7 +41,8 @@ const Navbar = () => {
         </li>
         <div>
           <a href="">
-            <img className="dark-theme" src="" alt="dark theme" />
+            dark
+            {/* <img className="dark-theme" src="" alt="dark theme" /> */}
           </a>
         </div>
       </ul>
