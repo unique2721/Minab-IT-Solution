@@ -66,3 +66,23 @@
   font-size: 1.25rem;
   color: rgb(152, 92, 209);
 }
+@media screen and (max-width: 1024px) {
+  .projectt {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .projectt img {
+    width: 100%;
+  }
+  .projectt p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projectt {
+    flex-direction: row;
+  }
+  .projectt p {
+    font-size: 1.25rem;
+  }
+}

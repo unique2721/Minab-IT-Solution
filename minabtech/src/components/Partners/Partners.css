@@ -16,10 +16,32 @@
 }
 .partners ul div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .partners ul div li {
   margin: 10px 20px;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .partners h1 {
+    font-size: 3rem;
+  }
+  .partners ul div {
+    flex-wrap: wrap;
+  }
+  .partners ul li img {
+    width: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .partners h1 {
+    font-size: 3rem;
+  }
+  .partners ul div {
+    flex-wrap: wrap;
+  }
+  .partners ul li img {
+    width: 150px;
+  }
 }
