@@ -6,7 +6,6 @@
   background-color: rgba(162, 153, 153, 0.559);
 }
 .about .about-left {
-  flex-basis: 45%;
   margin: auto 5%;
 }
 .about .about-left h1 {
@@ -14,13 +13,35 @@
   margin: 40px auto;
 }
 .about .about-left p {
-  font-size: 1.25rem;
   font-weight: 100;
   line-height: 1.4;
 }
-.about .about-right {
-  flex-basis: 45%;
-}
 .about .about-right img {
   width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .about .about-right {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .about-left p {
+    font-size: 1rem;
+  }
+  .about .about-right {
+    display: block;
+  }
+  .about .about-right img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .about .about-left p {
+    font-size: 1.25rem;
+  }
 }
