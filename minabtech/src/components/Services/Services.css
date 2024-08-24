@@ -1,5 +1,6 @@
 .services {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -20,6 +21,7 @@
 }
 .servic {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -42,4 +44,5 @@
 .servic p {
   font-size: 1.5rem;
   line-height: 1.2;
+  text-align: center;
 }

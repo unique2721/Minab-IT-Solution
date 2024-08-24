@@ -35,7 +35,11 @@
 .footer div div img {
   margin-left: 20px;
 }
+.footer div div img:hover {
+  cursor: pointer;
+}
 .footer p {
   margin: 50px auto;
   color: rgba(65, 60, 60, 0.81);
+  text-align: center;
 }
