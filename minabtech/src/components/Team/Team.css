@@ -19,12 +19,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto 5%;
-  /* display: flex;
-  flex-basis: 68%;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1%; */
 }
 
 .card {
@@ -61,3 +55,35 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .team {
+    flex-direction: column;
+  }
+  .card {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .team .team-right {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .team {
+    flex-direction: column;
+  }
+  .card {
+    width: 240px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .team .team-right {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .team {
+    flex-direction: row;
+    overflow: hidden;
+  }
+}
