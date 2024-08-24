@@ -1,10 +1,13 @@
 .services {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0px auto;
   background-color: rgba(162, 153, 153, 0.559);
+}
+.services h1 {
+  text-align: center;
 }
 .services h1 {
   font-size: 5rem;
@@ -13,18 +16,17 @@
 }
 .service {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10%;
-  margin: auto 10%;
+  gap: 30px;
 }
 .servic {
+  width: 400px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .servic img {
   background-color: rgba(29, 4, 40, 0.908);
