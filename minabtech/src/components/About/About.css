@@ -44,4 +44,7 @@
   .about .about-left p {
     font-size: 1.25rem;
   }
+  .about .about-right img {
+    width: 600px;
+  }
 }

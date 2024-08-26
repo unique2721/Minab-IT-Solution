@@ -82,3 +82,9 @@
   background-color: rgb(34, 4, 47);
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+}

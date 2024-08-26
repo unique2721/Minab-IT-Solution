@@ -1,9 +1,11 @@
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
+  overflow: hidden;
   /* background-color: rgba(245, 245, 245, 0.934); */
   background-color: transparent;
   box-shadow: 2px 2px 5px rgb(134, 131, 131);
@@ -33,4 +35,16 @@ nav ul li:hover {
 
 nav .dark-theme {
   margin: 15 70px;
+}
+
+@media screen and (max-width: 768px) {
+  nav .logo {
+    display: none;
+  }
+  nav ul {
+    gap: 30px;
+    margin: 5px 10px;
+  }
+  nav ul {
+  }
 }
